@@ -7,11 +7,12 @@ import java.util.*;
 
 //Test your implementation of Ackermann by invoking it from main and displaying the return value. Note the return value gets very big very quickly. You should try it only for small values of m and n (not bigger than 3).
 
-
-public class Ackerman {
-
-	// Assumes n >= 0, m >= 0
-	public static int ack(int m, int n) {
+	
+  //Chapter 6 Value Methods Exercise 8 Ackerman - The goal of this exercise is to translate a recursive definition into a Java method. The Ackermann function is defined for non-negative integers as follows: Write a method called ack that takes two ints as parameters and that computes and returns the value of the Ackermann function.
+  // Assumes n >= 0, m >= 0
+	public class Ackerman {
+  //Ackerman Function
+    public static int ack(int m, int n) {
 		if (m == 0) {
 			return n + 1;
 		}
@@ -31,4 +32,4 @@ public class Ackerman {
 		System.out.println("A(1, 1) = " + ack(1, 1));
 		System.out.println("A(2, 2) = " + ack(2, 2));
 	}
-}
+  }

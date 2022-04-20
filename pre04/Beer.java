@@ -12,7 +12,7 @@ public class Beer {
     public static void main(String[] args) {
         int beerNum = 99;
         String word = "bottles";
-
+//Check the condition from while loop, from line 16 -28 
         while (beerNum > 0) {
 
             if (beerNum == 1) {
